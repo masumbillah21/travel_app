@@ -4,7 +4,7 @@ A Travel App Flutter project.
 
 # Screenshots
 
-![1.png](screenshots%2F1.png)
+![home.png](screenshots%2Fhome.png)
 
 ![2.png](screenshots%2F2.png)
 
