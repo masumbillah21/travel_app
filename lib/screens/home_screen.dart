@@ -148,12 +148,12 @@ class _HomeScreenState extends State<HomeScreen> {
                                       decoration: _current == 2
                                           ? TextDecoration.underline
                                           : TextDecoration.none,
-                                      decorationColor: Colors.amber,
+                                      decorationColor: Colors.deepOrangeAccent,
                                       decorationThickness: 2,
                                       shadows: [
                                         Shadow(
                                           color: _current == 2
-                                              ? Colors.amber
+                                              ? Colors.deepOrangeAccent
                                               : const Color(0xFF0F2940),
                                           offset: const Offset(0, -7),
                                         )
@@ -186,12 +186,12 @@ class _HomeScreenState extends State<HomeScreen> {
                                       decoration: _current == 1
                                           ? TextDecoration.underline
                                           : TextDecoration.none,
-                                      decorationColor: Colors.amber,
+                                      decorationColor: Colors.deepOrangeAccent,
                                       decorationThickness: 2,
                                       shadows: [
                                         Shadow(
                                           color: _current == 1
-                                              ? Colors.amber
+                                              ? Colors.deepOrangeAccent
                                               : const Color(0xFF0F2940),
                                           offset: const Offset(0, -7),
                                         )
@@ -218,12 +218,12 @@ class _HomeScreenState extends State<HomeScreen> {
                                       decoration: _current == 0
                                           ? TextDecoration.underline
                                           : TextDecoration.none,
-                                      decorationColor: Colors.amber,
+                                      decorationColor: Colors.deepOrangeAccent,
                                       decorationThickness: 2,
                                       shadows: [
                                         Shadow(
                                           color: _current == 0
-                                              ? Colors.amber
+                                              ? Colors.deepOrangeAccent
                                               : Colors.white,
                                           offset: const Offset(0, -7),
                                         )
@@ -250,7 +250,8 @@ class _HomeScreenState extends State<HomeScreen> {
                                 Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                    builder: (context) => PackagesScreen(),
+                                    builder: (context) =>
+                                        const PackagesScreen(),
                                   ),
                                 );
                               },
@@ -291,7 +292,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                                     Radius.circular(10),
                                               ),
                                             ),
-                                            child: Icon(
+                                            child: const Icon(
                                               CupertinoIcons.arrow_right,
                                               color: Colors.white,
                                               size: 20,
@@ -302,10 +303,10 @@ class _HomeScreenState extends State<HomeScreen> {
                                     ),
                                   ),
                                   Padding(
-                                    padding: EdgeInsets.only(left: 10),
+                                    padding: const EdgeInsets.only(left: 10),
                                     child: Text(
                                       _currentList[index - 1].title,
-                                      style: TextStyle(
+                                      style: const TextStyle(
                                         color: Color(0xFF0F2940),
                                         fontSize: 25,
                                       ),
